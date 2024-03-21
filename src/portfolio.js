@@ -1,71 +1,71 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'Mahesh',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Mahesh KN',
+  role: 'Front End Web Developer',
+  description: 'I am a BTech graduate and passionate front-end web developer with Eight months of hands-on experience. Currently looking for a full-time job opportunity, I bring a blend of technical expertise and a creative mindset to the table. Apart from coding, I enjoy watching movies, documentaries, and playing video games, reflecting a balanced approach to work and leisure.',
+  resume: 'static/media/Mahesh_KN_resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/mahesh-k-n-732121251/',
+    github: 'https://github.com/lllmavlll',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Valorant Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This Open Source Website aims to create a comprehensive website This website will serve as a central hub for players to access game-related information, guides, and other resources',
+    stack: ['React', 'MongoDB', 'Firebase', 'ExpressJs', 'NodeJs'],
+    sourceCode: 'https://github.com/lllmavlll/mavzone',
+    livePreview: 'https://mavzone-app.netlify.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Riot games Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'this website will be an essential tool for promoting the company\'s brand, products, and services to potential customers and partners. It will play a crucial role in the company\'s marketing strategy.',
+    stack: ['JavaScript', 'React'],
+    sourceCode: 'https://github.com/lllmavlll/RiotGames',
+    livePreview: 'https://lllmavlll.github.io/RiotGames/',
   },
   {
-    name: 'Project 3',
+    name: 'Movie Search Application',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'The application allows users to search for movies by title and provide information on movies, such as movie titles, descriptions, ratings, release dates, and cast information.',
+    stack: ['HTML5', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/lllmavlll/MovieFlix',
+    livePreview: 'https://lllmavlll.github.io/MovieFlix/',
+  },
+  {
+    name: 'E-commerce website (apple clone)',
+    description:
+      'Welcome to my Apple-inspired website! Explore sleek designs, innovative features, and cutting-edge technology—all crafted with HTML and CSS. Discover a world of elegance and functionality, just like Apple.',
+    stack: ['HTML5', 'CSS'],
+    sourceCode: 'https://github.com/lllmavlll/apple_website_project',
+    livePreview: 'https://lllmavlll.github.io/apple_website_project/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
-  'SASS',
   'Material UI',
+  'MongoDB',
+  'Firebase',
+  'ExpressJs',
+  'NodeJs',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Team Player',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'maheshdsu86@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
