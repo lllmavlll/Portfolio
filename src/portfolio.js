@@ -54,8 +54,10 @@ const projects = [
 const skills = [
   'HTML',
   'CSS',
+  'Bootstrap',
   'JavaScript',
   'React',
+  'NextJs',
   'Redux',
   'Material UI',
   'MongoDB',
