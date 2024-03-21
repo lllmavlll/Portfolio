@@ -1,3 +1,5 @@
+import Resume from './static/media/Mahesh_KN_resume.pdf'
+
 const header = {
   title: 'Mahesh',
 }
@@ -6,7 +8,8 @@ const about = {
   name: 'Mahesh KN',
   role: 'Front End Web Developer',
   description: 'I am a BTech graduate and passionate front-end web developer with Eight months of hands-on experience. Currently looking for a full-time job opportunity, I bring a blend of technical expertise and a creative mindset to the table. Apart from coding, I enjoy watching movies, documentaries, and playing video games, reflecting a balanced approach to work and leisure.',
-  resume: 'static/media/Mahesh_KN_resume.pdf',
+  resume: Resume,
+  // resume: 'static/media/Mahesh_KN_resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/mahesh-k-n-732121251/',
     github: 'https://github.com/lllmavlll',
